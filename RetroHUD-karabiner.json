@@ -1,0 +1,85 @@
+{
+    "description": "RetroHUD safe F1/F2 controls",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "f1",
+                "modifiers": {
+                    "mandatory": ["option"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [{ "key_code": "f18" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f2",
+                "modifiers": {
+                    "mandatory": ["option"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [{ "key_code": "f19" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f1",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "f18",
+                    "modifiers": ["left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f2",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "f19",
+                    "modifiers": ["left_control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f1",
+                "modifiers": { "optional": ["caps_lock"] }
+            },
+            "to": [
+                {
+                    "key_code": "f18",
+                    "modifiers": ["left_shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f2",
+                "modifiers": { "optional": ["caps_lock"] }
+            },
+            "to": [
+                {
+                    "key_code": "f19",
+                    "modifiers": ["left_shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
