@@ -1,5 +1,5 @@
 
-# RetroHUD for macOS
+# ClassicHUD for macOS
 <img width="1677" height="938" alt="Classic HUD_ macOS-Style Control Tiles" src="https://github.com/user-attachments/assets/7f866ffa-294f-48aa-a094-9963c794c5ec" />
 (image is AI generated for representation purposes. actual designs are flatter and akin to old macOS HUD)
 
